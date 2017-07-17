@@ -61,28 +61,49 @@ h2
 {
 	position: absolute;
 	right:0px;
+	top:30px;
 	font-size: 20px;
-
 }
 
-hr
+.vline
 {
-	width:1;
-	size:100%;
+	position: absolute;
+	border-left:1px solid #cccccc;
+	height:20px;
 	display: inline-block;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.options
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contactlink
+{
+	margin-right: 0px;
 }
 
 a
 {
 	text-decoration: none;
+	color:#cccccc;
+}
+
+a:hover
+{
+	background-color: #ededed;
 }
 
 #aboutme
 {
-	margin-top: 30px;
+	margin-top: 20px;
 	background-color: #ffffff;
 	border:1px solid #dddddd;
-	width:600px;
+	width:586px;
 	padding:20px;
 	float: left;
 }
@@ -105,12 +126,13 @@ p
 
 #connect
 {
-	margin-top: 30px;
+	margin-top: 20px;
 	background-color: #ffffff;
 	border:1px solid #dddddd;
 	width:270px;
 	padding:20px;
-	float:right;
+	float:left;
+	margin-left: 20px;
 }
 
 .connecticon
@@ -148,5 +170,5 @@ footer
 	text-align: center;
 	padding: 20px;
 	border-top:4px solid #4aaaa5;
-	margin-top: 30px;
+	margin-top: 20px;
 }
