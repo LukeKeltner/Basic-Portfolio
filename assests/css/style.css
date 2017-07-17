@@ -11,6 +11,14 @@ body
 	background: url('../images/cork.png');
 }
 
+.contentHeader
+{
+	width:960px;
+	margin: auto;
+	position: relative;
+	height:inherit;
+}
+
 .content
 {
 	width:960px;
@@ -61,7 +69,8 @@ h2
 {
 	position: absolute;
 	right:0px;
-	top:30px;
+	top:50%;
+	transform: translateY(-50%);
 	font-size: 20px;
 }
 
@@ -162,8 +171,14 @@ p
 	clear:both;
 }
 
+.stickyfooter
+{
+	position:relative;
+}
+
 footer
 {
+	position: sticky;
 	clear:both;
 	background-color: #666666;
 	color:#ffffff;
@@ -171,4 +186,5 @@ footer
 	padding: 20px;
 	border-top:4px solid #4aaaa5;
 	margin-top: 20px;
+	bottom:0px;
 }
