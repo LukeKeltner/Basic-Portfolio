@@ -173,15 +173,13 @@ p
 
 footer
 {
-	position: fixed;
+	position: sticky;
 	clear:both;
 	background-color: #666666;
-	color:#ffffff;
+	color: #ffffff;
 	text-align: center;
 	padding: 20px;
 	border-top:4px solid #4aaaa5;
 	margin-top: 20px;
 	bottom:0px;
-	left:0px;
-	right:0px;
 }
