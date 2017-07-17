@@ -1,4 +1,8 @@
-
+*
+{
+	margin:0px;
+	padding: 0px;
+}
 
 body
 {
@@ -50,7 +54,7 @@ h2
 	background-color: #4aaaa5;
 	width:300px;
 	text-align: center;
-	padding:5px;
+	padding:20px;
 	float:left;
 }
 
@@ -81,6 +85,11 @@ a
 	float:left;
 	margin:20px;
 
+}
+
+p
+{
+	margin-top: 20px;
 }
 
 #connect
@@ -126,5 +135,5 @@ footer
 	text-align: center;
 	padding: 20px;
 	border-top:4px solid #4aaaa5;
-	margin-top: 20px;
+	margin-top: 30px;
 }
