@@ -8,7 +8,7 @@ body
 {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background: url("assests/images/cork-wallet.png") repeat;
+	background: url('../images/cork.png');
 }
 
 .content
@@ -23,7 +23,6 @@ header
 	position:relative;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -54,7 +53,7 @@ h2
 	background-color: #4aaaa5;
 	width:300px;
 	text-align: center;
-	padding:20px;
+	padding: 20px 5px 20px 5px;
 	float:left;
 }
 
@@ -62,6 +61,15 @@ h2
 {
 	position: absolute;
 	right:0px;
+	font-size: 20px;
+
+}
+
+hr
+{
+	width:1;
+	size:100%;
+	display: inline-block;
 }
 
 a
@@ -83,7 +91,10 @@ a
 {
 	width:200px;
 	float:left;
-	margin:20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border:1px solid #dddddd;
 
 }
 
@@ -102,22 +113,24 @@ p
 	float:right;
 }
 
-#connect1
+.connecticon
 {
 	float:left;
-	width:33%;
+	width:25%;
+	margin-top:20px;
+	margin-right:10px;
 }
 
-#connect2
+#icons
 {
-	float:left;
-	width:33%;
+	
 }
 
-#connect3
+#icons::after
 {
-	float:left;
-	width:33%;
+	content: "";
+	display:block;
+	clear:both;
 }
 
 .content::after
