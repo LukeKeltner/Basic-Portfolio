@@ -142,14 +142,19 @@ p
 .connecticon
 {
 	float:left;
-	width:25%;
+	width:67px;
 	margin-top:20px;
-	margin-right:10px;
 }
 
 .linkedin
 {
+	margin-left:34.5px;
+}
+
+.stackoverflow
+{
 	margin-right:0px;
+	float:right;
 }
 
 #icons
@@ -253,19 +258,6 @@ footer
 	bottom:20px;
 }
 
-
-.float_center {
-
-  border:1px solid red;
-}
-.float_center > .child {
-  position: relative;
-  left: 50%;
-} 
-
-.clear {
-  clear:both;
-  }
 
 
 
