@@ -100,7 +100,7 @@ h2
 a
 {
 	text-decoration: none;
-	color:#cccccc;
+	color:#777777;
 }
 
 a:hover
@@ -153,9 +153,15 @@ p
 	margin-right:10px;
 }
 
+.linkedin
+{
+	margin-right:0px;
+}
+
 #icons
 {
-	
+	position:relative;
+	margin: 0 auto;
 }
 
 #icons::after
@@ -229,7 +235,7 @@ footer
 .portpic
 {
 	width:263px;
-	height:263px;
+	height:200px;
 }
 
 .portpicdiv
