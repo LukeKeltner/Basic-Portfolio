@@ -1,14 +1,11 @@
-*
-{
-	margin:0px;
-	padding: 0px;
-}
+
 
 body
 {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background: url('../images/cork.png');
+	line-height: 20px;
 }
 
 .contentHeader
@@ -43,8 +40,9 @@ header::after
 
 h1
 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color:#ffffff;
+	font-size: 30px;
 }
 
 h2
@@ -54,15 +52,18 @@ h2
 	border-bottom: 2px solid #cccccc;
 	margin-top: 0px;
 	padding-bottom: 20px;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 #name
 {
 	background-color: #4aaaa5;
-	width:300px;
+	width:250px;
 	text-align: center;
-	padding: 20px 5px 20px 5px;
+	padding: 20px 0px 20px 0px;
 	float:left;
+	font-weight: bold;
 }
 
 #options
@@ -182,4 +183,70 @@ footer
 	border-top:4px solid #4aaaa5;
 	margin-top: 20px;
 	bottom:0px;
+}
+
+.contactme
+{
+	margin-top: 20px;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	width:586px;
+	padding:20px;
+	float: left;
+}
+
+.inputs
+{
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+.submit
+{
+	background-color: #4aaaa5;
+	width:100px;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	float:left;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+#portfolio
+{
+	margin-top: 20px;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	width:586px;
+	padding:20px;
+	float: left;
+}
+
+.portpic
+{
+	width:263px;
+	height:263px;
+}
+
+.portpicdiv
+{
+	position: relative;
+	margin: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float:left;
+}
+
+.picdeets
+{
+	position: absolute;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	width:223px;
+	font-size:20px;
+	padding:20px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	bottom:20px;
 }
